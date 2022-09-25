@@ -1,0 +1,45 @@
+.extra-icon {
+    color: blueviolet;
+    height: 50px;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main-container {
+    background-color: #282c34;
+    width: 100%;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+.chat-na-avatar{
+    padding: 5px 10px;
+}
+.chat-nav-bar {
+    width: 100%;
+    background-color: white;
+    height: 64px;
+    display: flex;
+    box-sizing: border-box;
+
+}
+
+
+.chat-nav-bar ul {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+.chat-nav-bar li:hover{
+    cursor: pointer;
+}
+
+
+/* OVERRIDE STYLE FOR ICONS */
+.material-icon-extra-style{
+    font-size: 25px !important;
+    color: #8a8a8a;
+}
